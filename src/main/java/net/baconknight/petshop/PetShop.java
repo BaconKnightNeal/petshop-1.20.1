@@ -1,5 +1,7 @@
 package net.baconknight.petshop;
 
+import net.baconknight.petshop.item.ModItemGroups;
+import net.baconknight.petshop.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,9 +17,8 @@ public class PetShop implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
 	}

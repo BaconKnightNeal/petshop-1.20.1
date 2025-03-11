@@ -1,0 +1,6 @@
+{
+  "item.petshop.adoption_papers": "Adoption Papers",
+  "itemgroup.pet_shop_group": "PET SHOP",
+  "tooltip.petshop.adoption_papers": "Use on a tamed mob to transfer its ownership to you",
+  "tooltip.petshop.adoption_papers_sub": "Please ask the previous owner for permission"
+}
